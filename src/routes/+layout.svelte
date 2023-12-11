@@ -21,7 +21,7 @@
         <div class="top-0 left-1/2 w-17 h-14 sm:h-16 text-3xl bg-slate-800/90 rounded-b-xl flex justify-center items-center -translate-x-1/2 absolute px-8 lg:px-24 z-10">
             <img src="/raizuma-logo.png" alt="" class="mx-auto w-full h-full">
         </div>
-        <div class="w-16 h-full flex translate-y-1 absolute lg:relative z-10 lg:z-0">
+        <div class="w-16 h-full translate-y-1 absolute lg:flex z-10 lg:z-1">
             <Sidebar />
         </div>
         <div class="w-full h-full overflow-y-scroll relative pt-20 pb-2">
