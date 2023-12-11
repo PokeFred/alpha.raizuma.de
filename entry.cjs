@@ -2,7 +2,7 @@ import child_process from "child_process"
 
 function rebuildApp() {
     if (process.env.REBUILD === "true") {
-        child_process.execSync("npm run build")
+        child_process.execSync("npm install && npm run build")
     }
 }
 
