@@ -10,6 +10,7 @@
         <ProfileCard name="Marv" position="Leitung Yokai Watch & Deltarune Deutschland" image="/team/marv.png" />
         <ProfileCard name="Nagisa Shiota" position="Leitung Deltarune Deutschland & Developer" image="/team/sev.jpeg" />
         <ProfileCard name="PokeFred" position="Developer" image="/team/pokefred.png" />
-        <ProfileCard name="Ericsucht" position="Team" image="/team/ericsucht.png" />
+        <ProfileCard name="Ericsucht" position="Direct Leitung" image="/team/ericsucht.png" />
+        <ProfileCard name="Etendo" position="Direct Leitung" image="/unknown-person.png" />
     </div>
 </div>

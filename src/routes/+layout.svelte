@@ -18,7 +18,7 @@
         <div class="bottom-1/4 left-2/4 w-10/12 h-1/5 bg-[#4ddbff] rounded-l-full rotate-[15deg] -translate-x-1/4 translate-y-1/2 blur-3xl opacity-25 absolute"></div>
     </div>
     <div class="top-0 left-0 w-full h-full flex overflow-hidden relative">
-        <div class="top-0 left-1/2 w-17 h-16 text-3xl bg-slate-800/90 rounded-b-xl flex justify-center items-center -translate-x-1/2 absolute px-8 lg:px-24 z-10">
+        <div class="top-0 left-1/2 w-17 h-14 sm:h-16 text-3xl bg-slate-800/90 rounded-b-xl flex justify-center items-center -translate-x-1/2 absolute px-8 lg:px-24 z-10">
             <img src="/raizuma-logo.png" alt="" class="mx-auto w-full h-full">
         </div>
         <div class="w-16 h-full flex translate-y-1 absolute lg:relative z-10 lg:z-0">
