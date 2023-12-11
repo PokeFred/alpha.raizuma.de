@@ -1,8 +1,8 @@
-import child_process from "child_process"
+const {execSync} = require("child_process")
 
 function rebuildApp() {
     if (process.env.REBUILD === "true") {
-        child_process.execSync("npm install && npm run build")
+        execSync("npm install && npm run build")
     }
 }
 
