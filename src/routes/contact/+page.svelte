@@ -1,4 +1,4 @@
-<div class="sm:mx-8 md:mx-16 mb-4 w-auto h-auto text-2xl lg:text-4xl text-center bg-slate-800/90 rounded-xl">Contact</div>
+<div class="mx-8 md:mx-16 mb-4 w-auto h-auto text-2xl lg:text-4xl text-center bg-slate-800/90 rounded-xl">Contact</div>
 <div class="mx-auto w-fit h-auto text-left">
     <div class="text-2xl text-center underline">Raizuma</div>
     <div class="mx-auto w-fit h-auto">
