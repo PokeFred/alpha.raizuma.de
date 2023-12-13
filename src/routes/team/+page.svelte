@@ -5,7 +5,7 @@
 <div class="h-auto flex flex-wrap justify-center items-center">
     <ProfileCard name="Hachiro" position="CEO" image="/team/hachiro.png" />
     <ProfileCard name="8-Pit" position="Mitgründer von Yokai Watch Deutschland" image="/team/8-pit.png" />
-    <ProfileCard name="Nozoko" position="Management" image="/unknown-person.png" />
+    <ProfileCard name="Nozoko" position="Management" image="/team/nozoko.png" />
     <ProfileCard name="PokeFred" position="Developer" image="/team/pokefred.png" />
     <ProfileCard name="Vidpic" position="Leitung Yokai Watch Deutschland" image="/team/vidpic.png" />
     <ProfileCard name="Sprössling" position="Leitung Yokai Watch Deutschland" image="/team/sprössling.png" />
