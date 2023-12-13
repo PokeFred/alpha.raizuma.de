@@ -8,7 +8,7 @@
     <ProfileCard name="Vidpic" position="Leitung Yokai Watch Deutschland" image="/team/vidpic.png" />
     <ProfileCard name="Sprössling" position="Leitung Yokai Watch Deutschland" image="/team/sprössling.png" />
     <ProfileCard name="Marv" position="Leitung Yokai Watch & Deltarune Deutschland" image="/team/marv.png" />
-    <ProfileCard name="Nagisa Shiota" position="Leitung Deltarune Deutschland & Developer" image="/team/sev.jpeg" />
+    <ProfileCard name="Nagisa Shiota" position="Leitung Deltarune Deutschland & Developer" image="/team/sev.png" />
     <ProfileCard name="PokeFred" position="Developer" image="/team/pokefred.png" />
     <ProfileCard name="Ericsucht" position="Direct Leitung" image="/team/ericsucht.png" />
     <ProfileCard name="Etendo" position="Direct Leitung" image="/team/etendo.png" />
