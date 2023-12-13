@@ -31,7 +31,7 @@ const routes: Route[] = [
         path: "/",
     },
     {
-        name: "Projects",
+        name: "Projekte",
         icon: {
             main: faFolder,
             active: faFolderOpen,
@@ -47,7 +47,7 @@ const routes: Route[] = [
         path: "/blogs",
     },
     {
-        name: "About us",
+        name: "Über uns",
         icon: {
             main: faInfo,
             active: faInfoCircle,
@@ -63,7 +63,7 @@ const routes: Route[] = [
         path: "/team",
     },
     {
-        name: "Contact",
+        name: "Kontakt",
         icon: {
             main: faIdCard,
             active: faIdCard,
