@@ -1,7 +1,7 @@
 <div
     class="mx-8 md:mx-16 mb-4 w-auto h-auto text-2xl lg:text-4xl bg-slate-800/90 rounded-xl flex justify-center items-center"
 >
-    About us
+    Über uns
 </div>
 
 <div class="mx-8 md:mx-16 text-1 lg:text-2xl">

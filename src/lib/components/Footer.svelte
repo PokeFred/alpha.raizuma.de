@@ -23,4 +23,4 @@
     </div>
 </div>
 <div class="mx-auto my-2 w-4/5 h-auto border border-neutral-300 rounded-2xl"></div>
-<div class="mt-4 sm:mt-2 mx-auto mb-1 w-fit text-xl text-center px-4">© 2023 Raizuma. All rights reserved.</div>
+<div class="mt-4 sm:mt-2 mx-auto mb-1 w-fit text-xl text-center px-4">© 2023 Raizuma. Alle Rechte vorbehalten.</div>
