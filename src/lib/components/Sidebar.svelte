@@ -60,9 +60,9 @@
     </div>
     <div>
         <button on:click={() => clapnavbar()} type="button" class="lg:hidden inline-flex items-center justify-center p-2 w-10 h-10 rounded-r-lg bg-slate-800">
-            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 14">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-            </svg>
+            <svg class="h-8 w-8 text-white"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"/>
+              </svg>              
           </button>
     </div>
 

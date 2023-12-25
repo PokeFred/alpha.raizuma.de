@@ -1,4 +1,16 @@
+<script>
+    function clapaccord(elementid) {
+        const nav = document.getElementById(elementid);
+        if (nav?.classList.contains("hidden")) {
+            nav?.classList.remove("hidden");
+        } else {
+            nav?.classList.add("hidden");
+        }
+    }
+</script>
+
 <div class="md:mx-16 w-auto h-auto text-left">
+    <!--Head-->
     <div class="w-auto h-auto flex justify-center items-start">
         <div
             class="md:w-1/2 md:h-64 md:text-6xl text-2xl text-center leading-[64px] flex justify-center items-center"
@@ -13,7 +25,17 @@
             />
         </div>
     </div>
-    <div class="mx-8 md:mx-16 text-1xl lg:text-2xl">
+    <!--Beschreibung-->
+    <div class="mx-8 md:mx-16 text-1xl lg:text-2xl py-3">
+        <div
+            class="flex justify-center items-start py-3 rounded-xl bg-slate-800/75 w-max"
+        >
+            <a
+                class="mx-8 md:mx-16 text-1xl lg:text-2xl hover:text-sky-400/75"
+                href="https://gbatemp.net/threads/yo-kai-watch-4-plusplus-deutsch-patch.626418/"
+                >Hier geht es zum Download</a
+            >
+        </div>
         Entwickler: Level-5<br />
         Publisher: Level-5<br /><br />
 
@@ -31,5 +53,103 @@
         selbst frei steuern kannst. Raizuma arbeitet noch aktiv daran, eine gute
         inoffizielle deutsche Version des Spiels zu ermöglichen! Viel Spaß damit
         und seid auf weiteren Updates gespannt!
+    </div>
+    <!--Patchnote-->
+    <div
+        class="mx-auto my-2 w-4/5 h-auto border border-neutral-300 rounded-2xl"
+    ></div>
+    <div
+        class="mx-8 md:mx-16 text-1xl lg:text-2xl py-3 bg-slate-800/25 rounded-xl text-center"
+    >
+        <button
+            on:click={() => clapaccord("Patch-0.3")}
+            class="hover:text-sky-400/75">Patchnotes Ver. 0.3</button
+        >
+        <div id="Patch-0.3" class="">
+            <div
+                class="mx-auto my-2 w-4/5 h-auto border border-neutral-300 rounded-2xl"
+            ></div>
+            <ul class="">
+                <li>
+                    Das Spiel-Icon, Name Version und Author wurden geändert.
+                    Einfach in das Switch Menü, wo man das Spiel normal startet.
+                </li>
+                <li>Namen werden absofort zusammen geschrieben.</li>
+            </ul>
+        </div>
+    </div>
+    <!--Patchnote-->
+    <div
+        class="mx-auto my-2 w-4/5 h-auto border border-transparent rounded-2xl"
+    ></div>
+    <div
+        class="mx-8 md:mx-16 text-1xl lg:text-2xl py-3 bg-slate-800/25 rounded-xl text-center"
+    >
+        <button
+            on:click={() => clapaccord("Patch-0.2-Hot")}
+            class="hover:text-sky-400/75">Patchnotes Ver. 0.2 Hotfix</button
+        >
+        <div id="Patch-0.2-Hot" class="hidden">
+            <div
+                class="mx-auto my-2 w-4/5 h-auto border border-neutral-300 rounded-2xl"
+            ></div>
+            <ul class="">
+                <li>Hilfetexte wurden übersetzt.</li>
+                <li>
+                    Es wurde die Quest "Ein neugeborenes Fahrrad" übersetzt.
+                </li>
+                <li>Es wurden Menüs übersetzt.</li>
+                <li>Es wurden einige System-Texte korrigiert.</li>
+                <li>Es wurden ein paar Texte aus der Story geändert.</li>
+                <li>Die Spieldauer wurde übersetzt.</li>
+                <li>Kampftexte wurden übersetzt.</li>
+                <li>Charaktertexte wurden übersetzt.</li>
+            </ul>
+        </div>
+    </div>
+    <!--Patchnote-->
+    <div
+        class="mx-auto my-2 w-4/5 h-auto border border-transparent rounded-2xl"
+    ></div>
+    <div
+        class="mx-8 md:mx-16 text-1xl lg:text-2xl py-3 bg-slate-800/25 rounded-xl text-center"
+    >
+        <button
+            on:click={() => clapaccord("Patch-0.1-Hot")}
+            class="hover:text-sky-400/75">Patchnotes Ver. 0.1 Hotfix</button
+        >
+        <div id="Patch-0.1-Hot" class="hidden">
+            <div
+                class="mx-auto my-2 w-4/5 h-auto border border-neutral-300 rounded-2xl"
+            ></div>
+            <ul class="">
+                <li>Es wurden einige Charakter-Namen korrigiert.</li>
+                <li>Es wurden einige System-Texte korrigiert.</li>
+                <li>Es wurden ein paar Texte aus der Story geändert.</li>
+            </ul>
+        </div>
+    </div>
+    <!--Patchnote-->
+    <div
+        class="mx-auto my-2 w-4/5 h-auto border border-transparent rounded-2xl"
+    ></div>
+    <div
+        class="mx-8 md:mx-16 text-1xl lg:text-2xl py-3 bg-slate-800/25 rounded-xl text-center"
+    >
+        <button
+            on:click={() => clapaccord("Patch-0.0.1-Hot")}
+            class="hover:text-sky-400/75">Patchnotes Ver. 0.0.1 Hotfix</button
+        >
+        <div id="Patch-0.0.1-Hot" class="hidden">
+            <div
+                class="mx-auto my-2 w-4/5 h-auto border border-neutral-300 rounded-2xl"
+            ></div>
+            <ul class="">
+                <li>Es wurden einige Textgrößen angepasst.</li>
+                <li>Es wurden einige Item-Namen hinzugefügt.</li>
+                <li>Es wurden die Kampftexte geändert.</li>
+                <li>Es wurden ein paar Texte aus der Story geändert.</li>
+            </ul>
+        </div>
     </div>
 </div>
