@@ -1,7 +1,9 @@
 # requirements
-- NodeJS (min. v18)
+
+-   NodeJS (min. v18)
 
 # setup
+
 ```bash
 $ npm install
 

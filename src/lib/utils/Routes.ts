@@ -1,15 +1,5 @@
-import type { IconDefinition } from "@fortawesome/fontawesome-common-types"
-import {
-    faHouse,
-    faFolder,
-    faFolderOpen,
-    faBook,
-    faBookOpen,
-    faInfo,
-    faPeopleGroup,
-    faInfoCircle,
-    faIdCard
-} from "@fortawesome/free-solid-svg-icons"
+import type { IconDefinition } from '@fortawesome/fontawesome-common-types'
+import { faHouse, faFolder, faFolderOpen, faBook, faBookOpen, faInfo, faPeopleGroup, faInfoCircle, faIdCard } from '@fortawesome/free-solid-svg-icons'
 
 interface Route {
     name: string
@@ -20,55 +10,55 @@ interface Route {
     path: string
 }
 
-const baseTitle: string = "Raizuma"
+const baseTitle: string = 'Raizuma'
 const routes: Route[] = [
     {
-        name: "Home",
+        name: 'Home',
         icon: {
             main: faHouse,
             active: faHouse,
         },
-        path: "/",
+        path: '/',
     },
     {
-        name: "Projekte",
+        name: 'Projekte',
         icon: {
             main: faFolder,
             active: faFolderOpen,
         },
-        path: "/projects",
+        path: '/projects',
     },
     {
-        name: "Blog Posts",
+        name: 'Blog Posts',
         icon: {
             main: faBook,
             active: faBookOpen,
         },
-        path: "/blogs",
+        path: '/blogs',
     },
     {
-        name: "Über uns",
+        name: 'Über uns',
         icon: {
             main: faInfo,
             active: faInfoCircle,
         },
-        path: "/about",
+        path: '/about',
     },
     {
-        name: "Team",
+        name: 'Team',
         icon: {
             main: faPeopleGroup,
             active: faPeopleGroup,
         },
-        path: "/team",
+        path: '/team',
     },
     {
-        name: "Kontakt",
+        name: 'Kontakt',
         icon: {
             main: faIdCard,
             active: faIdCard,
         },
-        path: "/contact",
+        path: '/contact',
     },
 ]
 
@@ -88,5 +78,5 @@ export function getPageTitle(path: string | null): string {
 
     if (!route) return baseTitle
 
-    return route.name + " | " + baseTitle
+    return route.name + ' | ' + baseTitle
 }

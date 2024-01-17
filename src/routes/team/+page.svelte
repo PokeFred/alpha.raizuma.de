@@ -1,8 +1,9 @@
 <script lang="ts">
-    import ProfileCard from "$components/ProfileCard.svelte"
+    import ProfileCard from '$components/ProfileCard.svelte'
 </script>
-<div class="sm:mx-8 md:mx-16 mb-4 w-auto h-auto text-2xl lg:text-4xl text-center bg-slate-800/90 rounded-xl">Das Team</div>
-<div class="h-auto flex flex-wrap justify-center items-center">
+
+<div class="mb-4 h-auto w-auto rounded-xl bg-slate-800/90 text-center text-2xl sm:mx-8 md:mx-16 lg:text-4xl">Das Team</div>
+<div class="flex h-auto flex-wrap items-center justify-center">
     <ProfileCard name="Hachiro" position="CEO" image="/team/hachiro.png" />
     <ProfileCard name="8-Pit" position="Mitgründer von Yokai Watch Deutschland" image="/team/8-pit.png" />
     <ProfileCard name="Nozoko" position="Management" image="/team/nozoko.png" />
