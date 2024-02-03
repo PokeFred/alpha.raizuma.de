@@ -1,5 +1,6 @@
 import { sveltekit } from '@sveltejs/kit/vite'
 import { defineConfig } from 'vite'
+import { enhancedImages } from '@sveltejs/enhanced-img'
 import type { CommonServerOptions } from 'vite'
 
 const serverConfig: CommonServerOptions = {
@@ -11,5 +12,5 @@ const serverConfig: CommonServerOptions = {
 export default defineConfig({
     server: serverConfig,
     preview: serverConfig,
-    plugins: [sveltekit()],
+    plugins: [sveltekit(), enhancedImages()],
 })

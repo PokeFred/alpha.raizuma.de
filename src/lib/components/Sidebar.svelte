@@ -27,7 +27,7 @@
                     <div class="group relative flex aspect-square w-full items-center justify-center">
                         {#if $page.route.id === route.path}
                             <button on:click={() => goto(route.path)} class="block flex h-full w-full items-center justify-center rounded-xl bg-gray-200/25 font-bold underline">
-                                <Icon data={route.icon.active} scale="1.5" />
+                                <Icon data={route.icon.active} scale= "1.5" />
                             </button>
                         {:else}
                             <button on:click={() => goto(route.path)} class="flex h-10 w-10 items-center justify-center rounded-xl hover:bg-gray-200/10 lg:h-full lg:w-full">
@@ -46,7 +46,7 @@
         {/key}
     </div>
     <div>
-        <button on:click={() => clapnavbar()} type="button" class="inline-flex h-10 w-10 items-center justify-center rounded-r-lg bg-slate-800 p-2 lg:hidden">
+        <button on:click={() => clapnavbar()} type="button" aria-label="Seitenknopf" class="inline-flex h-10 w-10 items-center justify-center rounded-r-lg bg-slate-800 p-2 lg:hidden">
             <svg class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
             </svg>

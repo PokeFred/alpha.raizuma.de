@@ -9,7 +9,7 @@ const config = {
         envPrefix: '',
     }),
     kit: {
-        adapter: adapter(),
+        adapter: adapter({ precompress: true}),
         alias: {
             $server: './src/lib/server',
             $components: './src/lib/components',
