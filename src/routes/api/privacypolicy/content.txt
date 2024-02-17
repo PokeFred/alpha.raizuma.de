@@ -1,31 +1,4 @@
-<script lang="ts">
-    import { onMount } from 'svelte'
 
-    let content: string = ''
-    onMount(async () => {
-        try {
-            const response: Response = await fetch('/api/privacypolicy', {
-                method: 'GET',
-            })
-
-            if (response.status === 200) {
-                const data: string = await response.text()
-                content = data
-            } else {
-                content = 'Error'
-            }
-        } catch (error: unknown) {
-            content = 'Error'
-        }
-    })
-</script>
-
-<div class="mx-8 mb-4 h-auto w-auto rounded-xl bg-slate-800/90 text-center text-2xl md:mx-16 lg:text-4xl">Datenschutzerklärung</div>
-<div>{@html content}</div>
-
-<!--
-<div>
-    <div class="mx-8 mb-4 h-auto w-auto rounded-xl bg-slate-800/90 text-center text-2xl md:mx-16 lg:text-4xl">Datenschutzerklärung</div>
     <div class="text-1 mx-8 md:mx-16 lg:text-2xl">
         <div>
             <h2 class="text-3xl font-bold">1. Datenschutz auf einen Blick</h2>
@@ -257,6 +230,3 @@
             <p>Quelle: <a class="underline" href="https://www.e-recht24.de/impressum-generator.html">E-recht24.de</a></p>
         </div>
     </div>
-    
-</div>
--->
