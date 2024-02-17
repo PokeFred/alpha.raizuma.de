@@ -20,7 +20,7 @@
     </div>
     <div class="relative left-0 top-0 flex h-full w-full overflow-hidden">
         <div class="w-17 absolute left-1/2 top-0 z-10 flex h-14 -translate-x-1/2 items-center justify-center rounded-b-xl bg-slate-800/90 px-8 text-3xl sm:h-16 lg:px-24">
-            <enhanced:img src="/raizuma-logo.png" alt="" class="mx-auto h-full w-full aspect" />
+            <img src="/raizuma-logo.png" alt="" class="mx-auto h-full w-full aspect" />
         </div>
         <div class="lg:z-1 absolute z-10 h-full w-16 translate-y-1 lg:flex">
             <Sidebar />

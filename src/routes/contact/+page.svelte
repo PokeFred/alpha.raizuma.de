@@ -16,4 +16,21 @@
         <div class="my-2">Discord: <a href="https://discord.com/invite/D8QcHPbjES" target="_blank" rel="noopener noreferrer" class="ml-1 rounded-xl border px-4 hover:bg-black/25">Tritt bei</a></div>
         <div class="my-2">Twitter: <a href="https://twitter.com/Deltarune_DE" target="_blank" rel="noopener noreferrer" class="ml-1 rounded-xl border px-4 hover:bg-black/25">Öffnen</a></div>
     </div>
+    <div class="pt-2 text-center text-2xl underline">Impressum</div>
+    <div class="mx-auto h-auto w-fit text-center pt-2">
+        <div>
+            <p>John Pinc<br />
+            Mühlenstraße 3<br />
+            08412 Werdau</p>
+        </div>
+        <div class="pt-2">
+            <p>Kontaktaufnahme</p>
+            <p>E-Mail: john.pinc@gmx.de</p>
+            <p>Den oben genannten Discord Servern</p>
+        </div>
+        <div class="pt-2">
+            <p>Angaben gemäß § 5 TMG</p>
+            <p>Quelle: <a class="underline" href="https://www.e-recht24.de/impressum-generator.html">E-recht24.de</a></p>
+        </div>
+    </div>
 </div>

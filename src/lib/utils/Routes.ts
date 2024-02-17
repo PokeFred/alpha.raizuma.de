@@ -1,5 +1,5 @@
 import type { IconDefinition } from '@fortawesome/fontawesome-common-types'
-import { faHouse, faFolder, faFolderOpen, faBook, faBookOpen, faInfo, faPeopleGroup, faInfoCircle, faIdCard } from '@fortawesome/free-solid-svg-icons'
+import { faHouse, faFolder, faFolderOpen, faBook, faBookOpen, faInfo, faPeopleGroup, faInfoCircle, faIdCard, faShield } from '@fortawesome/free-solid-svg-icons'
 
 interface Route {
     name: string
@@ -59,6 +59,14 @@ const routes: Route[] = [
             active: faIdCard,
         },
         path: '/contact',
+    },
+    {
+        name: 'DSGVO',
+        icon: {
+            main: faShield,
+            active: faShield,
+        },
+        path: '/privacypolicy',
     },
 ]
 
