@@ -43,8 +43,8 @@
         <ul class="">
             <li>Das Spiel-Icon, Name Version und Author wurden geändert. Einfach in das Switch Menü, wo man das Spiel normal startet.</li>
         </ul>
+        <div class="text-[7px] lg:text-sm">WARNUNG: Wer keine Cheats, in der neuen Version, haben will MUSS den Cheats Ordner löschen, oder man fügt unter Atmosphere/config/ die "system_settings.ini" Datei hinzu.</div>
     </div>
-    <div class="text-[7px] lg:text-sm">WARNUNG: Wer keine Cheats, in der neuen Version, haben will MUSS den Cheats Ordner löschen, oder man fügt unter Atmosphere/config/ die "system_settings.ini" Datei hinzu.</div>
 </div>
 <!--Patchnote-->
 <div class="mx-auto my-2 h-auto w-4/5 rounded-2xl border border-transparent"></div>
