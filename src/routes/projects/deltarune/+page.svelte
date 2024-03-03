@@ -20,7 +20,7 @@
     <!--Beschreibung-->
     <div class="text-1xl mx-8 md:mx-16 lg:text-2xl">
         <div class="flex w-max items-start justify-center rounded-xl bg-slate-800/75 py-3">
-            <a class="text-1xl mx-8 hover:text-sky-400/75 md:mx-16 lg:text-2xl" href="#">Download wird vorbereitet</a>
+            <a class="text-1xl mx-8 hover:text-sky-400/75 md:mx-16 lg:text-2xl" href="https://mega.nz/file/G4UEFb4Y#qFTVgPHYSoQPcscB5wDbOF97zOJKuRJxd1nDRqJqCEs">Download</a>
         </div>
         Entwickler: Toby Fox<br />
         Publisher: Toby Fox<br /><br />
@@ -29,8 +29,10 @@
         Originalsprache: Englisch<br />
         Altersfreigabe: USK 6<br /><br />
 
-        Deltarune ist ein 2D Pixelspiel der Genre RP. Das Spiel basiert auf das Prinzip des Spiels 'Undertale', wo man verschiedene Wegen einschlagen kann, die jeweils eine Auswirkung
-        zum Spielverlauf haben. Vernichten, Verschonen oder eher neutral, in diesem Spiel ist vielleicht deine Entscheidung doch nicht wichtig.
+        Erlebe in Deltarune, einem 2D-Pixel-RPG von Toby Fox, die Geschichte von Kris, einem jungen Menschen, welcher plötzlich zusammen mit Schulmobberin Susie in eine finsteren Welt stürzt und nun einen Weg nach Hause suchen.
+Ähnlich wie schon Undertale erlebst du in diesem Spiel einen facettenreichen Cast an verschiedenen Charakteren.
+Bekämpfe Gegner, oder Freunde dich mit ihnen an, in einem Bullet-Hell ähnlichen Kampfstil.
+Ob deine Entscheidungen einen Wert haben werden?
     </div>
 </div>
 <!--Patchnote-->
