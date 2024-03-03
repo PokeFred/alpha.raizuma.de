@@ -30,9 +30,9 @@
         Altersfreigabe: USK 6<br /><br />
 
         Erlebe in Deltarune, einem 2D-Pixel-RPG von Toby Fox, die Geschichte von Kris, einem jungen Menschen, welcher plötzlich zusammen mit Schulmobberin Susie in eine finsteren Welt stürzt und nun einen Weg nach Hause suchen.
-Ähnlich wie schon Undertale erlebst du in diesem Spiel einen facettenreichen Cast an verschiedenen Charakteren.
-Bekämpfe Gegner, oder Freunde dich mit ihnen an, in einem Bullet-Hell ähnlichen Kampfstil.
-Ob deine Entscheidungen einen Wert haben werden?
+        Ähnlich wie schon Undertale erlebst du in diesem Spiel einen facettenreichen Cast an verschiedenen Charakteren.
+        Bekämpfe Gegner, oder Freunde dich mit ihnen an, in einem Bullet-Hell ähnlichen Kampfstil.
+        Ob deine Entscheidungen einen Wert haben werden?
     </div>
 </div>
 <!--Patchnote-->
