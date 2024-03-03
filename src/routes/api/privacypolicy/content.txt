@@ -1,5 +1,5 @@
 
-    <div class="text-1 mx-8 md:mx-16 lg:text-2xl">
+    <div class="text-1 mx-8 md:mx-16 lg:text-xl">
         <div>
             <h2 class="text-3xl font-bold">1. Datenschutz auf einen Blick</h2>
             <h3 class="pt-4 font-bold">Allgemeine Hinweise</h3>
